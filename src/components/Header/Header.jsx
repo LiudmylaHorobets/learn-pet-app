@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 
 import { HeaderAuth, HeaderNavigation, HeaderStyled } from './Header.styled';
-import Icon from 'Icon/Icon';
+import Icon from 'components/Icon/Icon';
 
 const Header = () => {
   return (

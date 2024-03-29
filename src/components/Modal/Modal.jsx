@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { Overlay } from './Modal.styled';
-import Icon from 'Icon/Icon';
+import Icon from 'components/Icon/Icon';
 
 const Modal = ({ setVisible, children }) => {
   useEffect(() => {
