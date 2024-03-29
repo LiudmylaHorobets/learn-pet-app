@@ -56,7 +56,7 @@ export const HeaderAuth = styled.div`
     display: flex;
     gap: 6px;
   }
-
+  .logo-log-out,
   .logo-log-in {
     width: 20px;
     height: 20px;
@@ -71,12 +71,6 @@ export const HeaderAuth = styled.div`
 
     border-radius: 12px;
     cursor: pointer;
-  }
-
-  .logo-log-out {
-    width: 18px;
-    height: 18px;
-    margin-right: 8px;
   }
 
   .btn-log-out,
