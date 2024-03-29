@@ -1,5 +1,13 @@
+import Hero from 'components/Hero/Hero';
+import Statistics from 'components/Statistics/Statistics';
+
 const HomePage = () => {
-  return <div>HomePage</div>;
+  return (
+    <main className="container">
+      <Hero />
+      <Statistics />
+    </main>
+  );
 };
 
 export default HomePage;

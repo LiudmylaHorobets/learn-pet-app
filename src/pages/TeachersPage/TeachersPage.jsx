@@ -1,5 +1,9 @@
 const TeachersPage = () => {
-  return <div>TeachersPage</div>;
+  return (
+    <main className="container">
+      <h1>TeachersPage</h1>
+    </main>
+  );
 };
 
 export default TeachersPage;
