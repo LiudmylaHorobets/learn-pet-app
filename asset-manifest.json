@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/learn-pet-app/static/css/main.f752e332.css",
-    "main.js": "/learn-pet-app/static/js/main.1188a425.js",
+    "main.css": "/learn-pet-app/static/css/main.addd3a7d.css",
+    "main.js": "/learn-pet-app/static/js/main.9f077a2e.js",
+    "static/media/sprite.svg": "/learn-pet-app/static/media/sprite.9ad521f4f89cbf5dc1330584535a138f.svg",
     "index.html": "/learn-pet-app/index.html",
-    "main.f752e332.css.map": "/learn-pet-app/static/css/main.f752e332.css.map",
-    "main.1188a425.js.map": "/learn-pet-app/static/js/main.1188a425.js.map"
+    "main.addd3a7d.css.map": "/learn-pet-app/static/css/main.addd3a7d.css.map",
+    "main.9f077a2e.js.map": "/learn-pet-app/static/js/main.9f077a2e.js.map"
   },
   "entrypoints": [
-    "static/css/main.f752e332.css",
-    "static/js/main.1188a425.js"
+    "static/css/main.addd3a7d.css",
+    "static/js/main.9f077a2e.js"
   ]
 }
