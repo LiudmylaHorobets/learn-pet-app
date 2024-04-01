@@ -16,13 +16,13 @@ export const FormWrapper = styled.div`
     margin-bottom: 40px;
     color: rgba(18, 20, 23, 0.8);
   }
-`;
-export const FormStyled = styled.form`
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
 
   .form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .input-wrap {
     display: flex;
     flex-direction: column;
     gap: 18px;
@@ -43,6 +43,11 @@ export const FormStyled = styled.form`
         color: var(--primary-black);
       }
     }
+  }
+
+  .error-message {
+    
+    color: red;
   }
 `;
 
