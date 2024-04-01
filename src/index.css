@@ -13,41 +13,6 @@ code {
     monospace;
 }
 
-/* RESET */
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-ul,
-ol,
-li {
-  list-style: none;
-}
-
-input:hover,
-input:focus {
-  outline: none;
-}
-
-button {
-  border: none;
-  outline: none;
-}
-
 .container {
   min-width: 320px;
   max-width: 1440px;

@@ -4,37 +4,44 @@ export const Overlay = styled.div`
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 9999;
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
-  z-index: 9999;
 
   .modal-wrapper {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     overflow: auto;
-    padding: 40px;
-    width: 461px;
-    max-height: 80%;
+    max-height: 90%;
+    padding: 64px;
+    background-color: #fff;
     border-radius: 24px;
-    background-color: var(--primary-white);
+    transform: translate(-50%, -50%);
   }
-  .modal-icon {
-    position: absolute;
-    top: 16px;
-    right: 16px;
-    z-index: 1;
-    width: 24px;
-    height: 24px;
 
-    stroke: #121417;
+  .modal-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    transition: transform 350ms ease-in-out;
     cursor: pointer;
 
-    &:hover,
-    &:focus {
+    &:hover {
       transform: rotate(180deg);
     }
+  }
+
+  .modal-icon {
+    width: 24px;
+    height: 24px;
+    stroke: #121417;
   }
 `;

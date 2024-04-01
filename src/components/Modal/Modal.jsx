@@ -2,11 +2,11 @@ import { useEffect } from 'react';
 import { Overlay } from './Modal.styled';
 import Icon from 'components/Icon/Icon';
 
-const Modal = ({ setVisible, children }) => {
+const Modal = ({ onClose, children }) => {
   useEffect(() => {
     const handleKeyDown = e => {
       if (e.code === 'Escape') {
-        setVisible(false);
+        onClose();
       }
     };
 
@@ -15,18 +15,18 @@ const Modal = ({ setVisible, children }) => {
     return () => {
       window.removeEventListener('keydown', handleKeyDown);
     };
-  }, [setVisible]);
+  }, [onClose]);
 
   const handleBackdropClick = e => {
     if (e.currentTarget === e.target) {
-      setVisible(false);
+      onClose();
     }
   };
 
   return (
     <Overlay onClick={handleBackdropClick}>
       <div className="modal-wrapper">
-        <button onClick={() => setVisible(false)} className="modal-btn">
+        <button onClick={onClose} className="modal-btn">
           <Icon className="modal-icon" id="close" />
         </button>
         {children}

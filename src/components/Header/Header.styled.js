@@ -67,7 +67,7 @@ export const HeaderAuth = styled.div`
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
-    font-weight: 800;
+    font-weight: 700;
 
     border-radius: 12px;
     cursor: pointer;

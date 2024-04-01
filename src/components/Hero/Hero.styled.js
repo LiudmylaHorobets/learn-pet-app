@@ -21,7 +21,9 @@ export const HeroSection = styled.section`
   .hero-title {
     margin-bottom: 32px;
     font-size: 48px;
-    font-weight: 500;
+    font-weight: 700;
+    line-height: 1.17;
+
     color: #121417;
   }
   .hero-title-span {
@@ -37,6 +39,7 @@ export const HeroSection = styled.section`
   .hero-description {
     margin-bottom: 64px;
     max-width: 471px;
+    line-height: 1.38;
   }
 
   .hero-btn {

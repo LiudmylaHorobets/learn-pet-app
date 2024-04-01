@@ -1,10 +1,9 @@
 import styled from 'styled-components';
 
 export const StatisticsSection = styled.section`
-  width: 100%;
   padding: 40px 0;
 
-  border: 1.5;
+  border: 1.5px;
   border-color: #e0a39a;
   border-style: dashed;
   border-radius: 30px;
@@ -43,6 +42,7 @@ export const StatisticsSection = styled.section`
   .statistics-text {
     font-size: 14px;
     font-weight: 400;
+    line-height: 1.29;
 
     width: 96px;
     opacity: 0.7;
