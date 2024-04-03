@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/learn-pet-app/static/css/main.24f7ebb2.css",
-    "main.js": "/learn-pet-app/static/js/main.1489dfab.js",
+    "main.js": "/learn-pet-app/static/js/main.98b781ec.js",
     "static/js/608.88e13df7.chunk.js": "/learn-pet-app/static/js/608.88e13df7.chunk.js",
     "static/js/532.2167a806.chunk.js": "/learn-pet-app/static/js/532.2167a806.chunk.js",
     "static/js/413.a7feee94.chunk.js": "/learn-pet-app/static/js/413.a7feee94.chunk.js",
@@ -12,13 +12,13 @@
     "static/media/sprite.svg": "/learn-pet-app/static/media/sprite.b806736e60f15f767b162765eb827202.svg",
     "index.html": "/learn-pet-app/index.html",
     "main.24f7ebb2.css.map": "/learn-pet-app/static/css/main.24f7ebb2.css.map",
-    "main.1489dfab.js.map": "/learn-pet-app/static/js/main.1489dfab.js.map",
+    "main.98b781ec.js.map": "/learn-pet-app/static/js/main.98b781ec.js.map",
     "608.88e13df7.chunk.js.map": "/learn-pet-app/static/js/608.88e13df7.chunk.js.map",
     "532.2167a806.chunk.js.map": "/learn-pet-app/static/js/532.2167a806.chunk.js.map",
     "413.a7feee94.chunk.js.map": "/learn-pet-app/static/js/413.a7feee94.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.24f7ebb2.css",
-    "static/js/main.1489dfab.js"
+    "static/js/main.98b781ec.js"
   ]
 }
