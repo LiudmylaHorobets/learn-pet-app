@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunklearn_pet_app=self.webpackChunklearn_pet_app||[]).push([[532],{532:function(e,a,n){n.r(a);var r=n(184);a.default=function(){return(0,r.jsx)("main",{className:"container",children:(0,r.jsx)("h1",{children:"TeachersPage"})})}}}]);
+//# sourceMappingURL=532.2167a806.chunk.js.map

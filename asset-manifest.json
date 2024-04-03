@@ -1,18 +1,24 @@
 {
   "files": {
     "main.css": "/learn-pet-app/static/css/main.24f7ebb2.css",
-    "main.js": "/learn-pet-app/static/js/main.eed5cec7.js",
+    "main.js": "/learn-pet-app/static/js/main.1489dfab.js",
+    "static/js/608.88e13df7.chunk.js": "/learn-pet-app/static/js/608.88e13df7.chunk.js",
+    "static/js/532.2167a806.chunk.js": "/learn-pet-app/static/js/532.2167a806.chunk.js",
+    "static/js/413.a7feee94.chunk.js": "/learn-pet-app/static/js/413.a7feee94.chunk.js",
     "static/media/Roboto-Italic.ttf": "/learn-pet-app/static/media/Roboto-Italic.87f3afe16a8c3c370634.ttf",
     "static/media/Roboto-Medium.ttf": "/learn-pet-app/static/media/Roboto-Medium.7c8d04cd831df3033c8a.ttf",
     "static/media/Roboto-Regular.ttf": "/learn-pet-app/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
     "static/media/Roboto-Bold.ttf": "/learn-pet-app/static/media/Roboto-Bold.f80816a5455d171f948d.ttf",
-    "static/media/sprite.svg": "/learn-pet-app/static/media/sprite.9ad521f4f89cbf5dc1330584535a138f.svg",
+    "static/media/sprite.svg": "/learn-pet-app/static/media/sprite.b806736e60f15f767b162765eb827202.svg",
     "index.html": "/learn-pet-app/index.html",
     "main.24f7ebb2.css.map": "/learn-pet-app/static/css/main.24f7ebb2.css.map",
-    "main.eed5cec7.js.map": "/learn-pet-app/static/js/main.eed5cec7.js.map"
+    "main.1489dfab.js.map": "/learn-pet-app/static/js/main.1489dfab.js.map",
+    "608.88e13df7.chunk.js.map": "/learn-pet-app/static/js/608.88e13df7.chunk.js.map",
+    "532.2167a806.chunk.js.map": "/learn-pet-app/static/js/532.2167a806.chunk.js.map",
+    "413.a7feee94.chunk.js.map": "/learn-pet-app/static/js/413.a7feee94.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.24f7ebb2.css",
-    "static/js/main.eed5cec7.js"
+    "static/js/main.1489dfab.js"
   ]
 }
