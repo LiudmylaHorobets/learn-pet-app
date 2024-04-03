@@ -43,10 +43,13 @@ export const FormWrapper = styled.div`
         color: var(--primary-black);
       }
     }
+
+    .label-toggle-password {
+      position: relative;
+    }
   }
 
   .error-message {
-    
     color: red;
   }
 `;
@@ -68,5 +71,19 @@ export const FormBtn = styled.button`
   &:hover,
   &:focus {
     background-color: var(--secondary-light-yellow);
+  }
+`;
+
+export const IconTogglePassword = styled.span`
+  top: 28px;
+  right: 12px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  z-index: 1;
+
+  .icon-eye,
+  .icon-eye-off {
+    width: 20px;
+    height: 20px;
   }
 `;

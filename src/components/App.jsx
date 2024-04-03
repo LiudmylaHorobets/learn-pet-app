@@ -1,21 +1,34 @@
-import { Route, Routes } from 'react-router-dom';
+import { Suspense, lazy } from 'react';
+import { Navigate, Route, Routes } from 'react-router-dom';
+
 import Layout from './Layout/Layout';
-import HomePage from 'pages/HomePage/HomePage';
-import TeachersPage from 'pages/TeachersPage/TeachersPage';
-import FavoritesPage from 'pages/FavoritesPage/FavoritesPage';
+import PrivateRoute from './PrivateRoute';
+
+const HomePage = lazy(() => import('pages/HomePage/HomePage'));
+const TeachersPage = lazy(() => import('pages/TeachersPage/TeachersPage'));
+const FavoritesPage = lazy(() => import('pages/FavoritesPage/FavoritesPage'));
 
 export const App = () => {
   return (
-    <div>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<HomePage />} />
-          <Route path="teachers" element={<TeachersPage />} />
-          <Route path="favorites" element={<FavoritesPage />} />
+    <>
+      <Suspense>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<HomePage />}></Route>
 
-          <Route path="*" element={<HomePage />} />
-        </Route>
-      </Routes>
-    </div>
+            <Route path="teachers" element={<TeachersPage />} />
+            <Route
+              path="favorites"
+              element={
+                <PrivateRoute>
+                  <FavoritesPage />
+                </PrivateRoute>
+              }
+            />
+            <Route path="*" element={<Navigate to="/" />} />
+          </Route>
+        </Routes>
+      </Suspense>
+    </>
   );
 };

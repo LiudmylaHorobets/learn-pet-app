@@ -1,4 +1,4 @@
-import icons from '../../assets/images/icons/sprite.svg';
+import icons from 'assets/images/sprite.svg';
 
 const Icon = ({ className, id }) => {
   return (
