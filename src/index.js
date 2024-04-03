@@ -10,8 +10,7 @@ import { AuthProvider } from 'contexts/authContext';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <AuthProvider>
-      <BrowserRouter>
-      {/* <BrowserRouter basename="learn-pet-app"> */}
+      <BrowserRouter basename="learn-pet-app">
         <GlobalStyle />
         <App />
       </BrowserRouter>
